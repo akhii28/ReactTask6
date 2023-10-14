@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden;
+}
+.x:hover{
+    transition: 0.5s;
+    color: lightblue !important; 
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.y{
+    height: 300px;
+    transition: transform .2s;
+}
+.y:hover{
+    transform: scale(1.05);
+    cursor:default;
+}
+.z{
+    transition: transform .4s;
+}
+.z:hover{
+    transform: scale(1.05);
+    cursor:default;
+}
+.a{
+    transition: transform .4s;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.a:hover{
+    transform: scale(1.05);
+    cursor:default;
+}
+.text-custom1{
+    color: lightblue;
+    text-underline-offset: 10px;
+}
+.text-custom2{
+    color: lightgray;
+}
+.main{
+    height: 100%;
+    min-height: 100vh;
+}
+.f{
+    height: 200px;
+}
+.c{
+    height: 460px;
+}
+img{
+    transition: transform .4s;
+}
+img:hover{
+    transform: scale(1.05);
+}
+@media screen and (min-width: 1000px){
+    .c{
+        height: 600px;
+    }
+}
+.about{
+    text-align: justify;
+}
+.link{
+    margin-left: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top:2px;
+    padding-bottom:3px;
+    color: white;
+    background-color: royalblue;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+#message{
+    height: 10rem;
+}
+#image2{
+    height: 500px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
