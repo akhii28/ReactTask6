@@ -42,7 +42,7 @@ export function Projects() {
                         <div className="card-body p-0 c">
                             <div className="align-items-center">
                                 <div className="p-5">
-                                    <a href="https://react-task2-one.vercel.app/">
+                                    <a href="https://react-task3-sand.vercel.app/">
                                         <img className="img-fluid rounded-3 f mb-2" src={require('./projectimgs/task3.png')} alt='' />
                                     </a><br/><br/><br/>
                                     <h2 className="fw-bolder text-light">Color Picker</h2>
